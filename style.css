@@ -45,6 +45,10 @@ body {
             margin-left: 250px;
         }
     }
+
+    .source-info {
+        margin-left: 250px;
+    }
 }
 
 @media print {
@@ -56,6 +60,10 @@ body {
         width: 21cm;
         height: 29.7cm;
         box-sizing: border-box;
+    }
+
+    .source-info {
+        margin-left: 2rem;
     }
 }
 
@@ -85,7 +93,7 @@ h1, h2, h3 {
 
 a {
     color: #048;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: none;
 
     &:hover {

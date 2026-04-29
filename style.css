@@ -40,7 +40,7 @@ body {
     .page-a4 {
         box-sizing: border-box;
 
-        main {
+        main, .full-section {
             max-width: 800px;
             margin-left: 250px;
         }
@@ -52,7 +52,7 @@ body {
 }
 
 @media print {
-    main {
+    main, .full-section {
         font-size: 14px;
     }
 
@@ -74,6 +74,10 @@ body {
     .portfolio-list {
         max-width: 800px;
     }
+}
+
+.full-section {
+    padding: 1rem 2rem 0;
 }
 
 main {
@@ -226,6 +230,7 @@ header {
 
 .portfolio-item {
     flex: 1;
+    max-width: 23%;
 
     img {
         width: 100%;
